@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stillo barbearia</title>
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <img class="FotoLogo" src="https://marketplace.canva.com/EAGIHvx_XuI/1/0/1600w/canva-logo-barbearia-minimalista-bege-e-preto-4LyCMRxIajk.jpg" alt="Logo Da Barbearia">
+      <div class="logo">Stillo barbearia</div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">
+        ☰
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container1">
+        <h1 class="headline">Mais que corte. Mais que barba. É Stillo.</h1>
+    </div>
+  </section>
+
+  <script>
+    // Script simples para o menu mobile
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+    toggle.onclick = () => {
+      nav.classList.toggle('active');
+    };
+  </script>
+</body>
+</html>
