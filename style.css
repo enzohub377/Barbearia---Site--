@@ -151,13 +151,86 @@ h1{
 }
 
 .container5{
+  gap: 75px;
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .Pacote{
-  font-size: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+  padding: 10px;
+  border: 2.5px dotted white;
+}
+
+.container6{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.boxPack{
+  background-color: black;
+  border: 3px solid #CB070C;
+  border-radius: 20px;
+font-size: 25px;
+}
+
+h4{
+  font-size: 20px;
+  text-align: center;
+  background-color: #CB070C;
+  padding-left: 10px;
+  padding-right: 15px;
+  border-radius: 15px;
+}
+
+h5{
+  text-align: center;
+  margin-top: 10px;
+}
+
+h6{
+  text-align: center;
+  background-color: #CB070C;
+  width: 100%;
+}
+
+.oferta{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container7{
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  font-size: 25px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #CB070C;
+}
+
+.container8{
+  margin-top: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: black;
+  border-top: 3px solid #CB070C;
 }
 /* Responsividade */
 @media (max-width: 768px) {
