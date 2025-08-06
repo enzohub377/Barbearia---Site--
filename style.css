@@ -164,11 +164,12 @@ h1{
   font-optical-sizing: auto;
   font-weight: 10px;
   font-style: normal;
-  padding: 10px;
-  border: 2.5px dotted white;
 }
 
-.container6{
+.container5{
+  border-bottom: 3px solid #CB070C;
+  border-top: 3px solid #CB070C;
+  align-items: center;
   display: flex;
   justify-content: space-around;
   margin-top: 25px;
@@ -176,6 +177,7 @@ h1{
   padding: 40px;
   border-radius: 10px;
   gap: 15px;
+  position: relative;
 }
 
 .boxPack{
@@ -210,6 +212,20 @@ h6{
   margin-top: 20px;
 }
 
+.container6{
+  border-bottom: 3px solid #CB070C;
+  border-top: 3px solid #CB070C;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  gap: 15px;
+  position: relative;
+}
+
 .container7{
   margin-top: 75px;
   display: flex;
@@ -217,6 +233,7 @@ h6{
 }
 
 button{
+  cursor: pointer;
   font-size: 25px;
   background-color: black;
   padding: 15px;
@@ -258,5 +275,23 @@ button{
 
   .menu-toggle {
     display: block;
+  }
+
+  .container3{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container4{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container5{
+    flex-direction: column;
+  }
+
+  .container6{
+    flex-direction: column;
   }
 }
